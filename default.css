@@ -327,6 +327,7 @@ ul {
 .post-preview {
   background-color: #fff;
   padding: 15px;
+  min-height: 300px;
 }
 
 .post-title {
@@ -389,6 +390,16 @@ body * {
 .social-icon {
   margin: 20px;
   cursor: pointer;
+}
+
+.project-stack li {
+  color: black;
+}
+
+a.demo-button {
+  color: #17a2b8;
+  cursor: pointer;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 1200px) {
