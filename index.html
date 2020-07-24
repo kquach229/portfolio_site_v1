@@ -195,6 +195,7 @@
                   <li>ReactJS</li>
                   <li>Materialize CSS</li>
                   <li>React-Router-DOM</li>
+                  <li>SASS</li>
                 </ul>
                 <a class="demo-button" href="https://thirsty-leavitt-52466b.netlify.app" target="_blank">Demo</a>
               </div>
@@ -206,20 +207,23 @@
     <section id="contact" class="s2">
             <div class="main-container">
             <h3 style="text-align: center;">Get In Touch</h3>
+            <div class="alert">Your message has been sent</div>
             <form id="contact-form">
                 <label>Name</label>
-                <input type="text" name="name" class="input-field">
+                <input type="text" id="name" name="name" class="input-field" required>
                 <label>Subject</label>
-                <input type="text" name="subject" class="input-field">
+                <input type="text" id="subject" name="subject" class="input-field" required>
                 <label>Email</label>
-                <input type="text" name="email" class="input-field">
+                <input type="email" id="email" name="email" class="input-field required">
                 <label>Message</label>
-                <textarea name="message" class="input-field"></textarea>
-
+                <textarea name="message" id="message" class="input-field" required></textarea>
                 <input type="submit" value="send" id="submit-btn">
             </form>
             </div>
     </section>
+  <script src="https://www.gstatic.com/firebasejs/7.17.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.17.0/firebase-database.js"></script>
     <script src="theme.js"></script>
+   
   </body>
 </html>

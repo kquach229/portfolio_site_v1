@@ -402,6 +402,15 @@ a.demo-button {
   font-weight: bold;
 }
 
+.alert {
+  text-align: center;
+  padding: 10px;
+  background-color: var(--main-color);
+  color: var(--main-text);
+  margin-bottom: 10px;
+  display: none;
+}
+
 @media screen and (max-width: 1200px) {
   .main-container {
     width: 95%;
